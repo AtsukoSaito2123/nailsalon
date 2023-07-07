@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Nail salon</title>
+  <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+</head>
+
+
+<body>
+  <header id="header">
+    <h1 class="logo">
+      <a href="#">
+        <img src="/img/logo.png" alt="" />
+      </a>
+    </h1>
+    <div class="inner wrapper">
+      <nav id="navi">
+        <ul>
+          <li>
+            <a href="#news">NEWS</a>
+          </li>
+          <li>
+            <a href="#concept">CONCEPT</a>
+          </li>
+          <li>
+            <a href="#menu">MENU</a>
+          </li>
+          <li>
+            <a href="#gallery">GALLERY</a>
+          </li>
+          <li>
+            <a href="#access">ACCESS</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="toggle-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div id="mask"></div>
+  </header>
+  <main>
+    <div class="mainvisual">
+      <img src="/img/mainvisual.jpg" alt="" />
+    </div>
+    <a class="reserved-btn" href="">RESERVED</a>
+    <section id="news">
+      <h2 class="sec-title">
+        <span class="ja">お知らせ</span>
+        <span class="en">News</span>
+      </h2>
+      <ul class="list">
+        <li>
+          <div class="date-area">
+            <time datetime="2023-01-01">2023.01.01</time>
+            <p>テキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </li>
+        <li>
+          <div class="date-area">
+            <time datetime="2023-01-01">2023.01.01</time>
+            <p>テキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </li>
+        <li>
+          <div class="date-area">
+            <time datetime="2023-01-01">2023.01.01</time>
+            <p>テキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section id="concept">
+      <div class="contents">
+        <h2 class="sec-title">
+          <span class="ja">コンセプト</span>
+          <span class="en">Concept</span>
+        </h2>
+        <div class="inner">
+          <img class="concept-img" src="/img/concept.jpg" alt="" />
+          <div class="concept-text">
+            <p>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+            <p>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+            <p>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menu">
+      <h2 class="sec-title">
+        <span class="ja">メニュー</span>
+        <span class="en">Menu</span>
+      </h2>
+      <div class="menu-item">
+        <div class="item-left">
+          <img src="/img/hand.jpg" alt="handnail" />
+          <h3 class="title">Hand Nail</h3>
+          <p class="text">
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+          <p class="price">￥0,000～</p>
+        </div>
+        <div class="item-right">
+          <img src="/img/foot.jpg" alt="footnail" />
+          <h3 class="title">Foot Nail</h3>
+          <p class="text">
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+          <p class="price">￥0,000～</p>
+        </div>
+      </div>
+      <a class="btn" href="/menu.html">Menu&Price</a>
+    </section>
+    <section id="gallery">
+      <h2 class="sec-title">
+        <span class="ja">ネイルデザイン</span>
+        <span class="en">Gallery</span>
+      </h2>
+      <div class="wrapper">
+        <ul class="slick-area">
+          <li>
+            <div class="slick-item">
+              <img src="/img/nail_1.jpg" alt="" />
+              <p class="price">￥0,000～</p>
+            </div>
+          </li>
+          <li>
+            <div class="slick-item">
+              <img src="/img/nail_2.jpg" alt="" />
+              <p class="price">￥0,000～</p>
+            </div>
+          </li>
+          <li>
+            <div class="slick-item">
+              <img src="/img/nail_3.jpg" alt="" />
+              <p class="price">￥0,000～</p>
+            </div>
+          </li>
+          <li>
+            <div class="slick-item">
+              <img src="/img/nail_4.jpg" alt="" />
+              <p class="price">￥0,000～</p>
+            </div>
+          </li>
+          <li>
+            <div class="slick-item">
+              <img src="/img/nail_5.jpg" alt="" />
+              <p class="price">￥0,000～</p>
+            </div>
+          </li>
+          <li>
+            <div class="slick-item">
+              <img src="/img/nail_6.jpg" alt="" />
+              <p class="price">￥0,000～</p>
+            </div>
+          </li>
+        </ul>
+        <a class="btn" href="/gallery.html">View More</a>
+      </div>
+    </section>
+    <section id="access">
+      <h2 class="sec-title">
+        <span class="ja">アクセス</span>
+        <span class="en">Access</span>
+      </h2>
+      <div class="wrapper">
+        <dl>
+          <dt>店舗名：</dt>
+          <dd>Nail salon Ruby</dd>
+          <dt>住　所：</dt>
+          <dd>XX県XX市XX区1-2-3 XXXXビル2F</dd>
+          <dt>TEL：</dt>
+          <dd>〇〇〇-〇〇〇-〇〇〇〇</dd>
+          <dt>営業時間：</dt>
+          <dd>00:00～00:00 （最終受付：00:00）</dd>
+          <dt>休業日：</dt>
+          <dd>〇曜日</dd>
+        </dl>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3132.835051108159!2d140.87756658469112!3d38.26013149932848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z44Os44K544OI44Op44Oz!5e0!3m2!1sja!2sjp!4v1687359490653!5m2!1sja!2sjp"
+          height="450" style="border: 0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <section id="contact">
+      <h2 class="sec-title">
+        <span class="ja">コンタクト</span>
+        <span class="en">Contact</span>
+      </h2>
+      <div class="container">
+        <div class="reserved-text">
+          <h3 class="reserved-title">ご予約はこちら</h3>
+          <p class="text">
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+        </div>
+        <a class="btn" href="#">Reserved</a>
+      </div>
+      <form action="#" method="post">
+        <h3 class="contact-title">お問い合わせはこちら</h3>
+        <dl>
+          <dt class="contact-item">
+            <label for="name">Name</label>
+          </dt>
+          <dd class="contact-body">
+            <input type="text" id="name" name="your-name" />
+          </dd>
+          <dt class="contact-item">
+            <label for="email">E-mail</label>
+          </dt>
+          <dd class="contact-body">
+            <input type="email" id="e-mail" name="your-email" />
+          </dd>
+          <dt class="contact-item">
+            <label for="message">Message</label>
+          </dt>
+          <dd class="contact-body">
+            <textarea name="your-message" id="message" cols="30" rows="10"></textarea>
+          </dd>
+        </dl>
+        <div class="button">
+          <input type="submit" value="送信" />
+        </div>
+      </form>
+    </section>
+    <div class="sns">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </main>
+  <footer>
+    <p>&copy;Ruby inc.</p>
+  </footer>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="/js/main.js"></script>
+
+</html>
